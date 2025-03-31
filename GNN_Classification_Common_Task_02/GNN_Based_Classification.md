@@ -4,7 +4,7 @@
 
 ### Approach :
 
-![](vertopal_9c664049fcff40a191ba51f5a3ab9363/media/image1.png){width="5.833333333333333in"
+![]([vertopal_9c664049fcff40a191ba51f5a3ab9363/media/image1.png](https://github.com/tanishmohokar/ML4SCI_25/blob/main/GNN_Classification_Common_Task_02/graph_formation.png)){width="5.833333333333333in"
 height="2.85625in"}
 
 -   **🚀 Introduction**
