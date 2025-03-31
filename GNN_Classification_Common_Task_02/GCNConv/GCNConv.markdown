@@ -4,23 +4,23 @@
 
       GNN(
 
-      (conv1): GCNConv(in_features, hidden_dim)
+            (conv1): GCNConv(in_features, hidden_dim)
 
-      (conv2): GCNConv(hidden_dim, 2 \* hidden_dim)
+            (conv2): GCNConv(hidden_dim, 2 \* hidden_dim)
 
-      (conv3): GCNConv(2 \* hidden_dim, hidden_dim)
+            (conv3): GCNConv(2 \* hidden_dim, hidden_dim)
 
-      (pool): GlobalMeanPool
+            (pool): GlobalMeanPool
 
-      (fc1): Linear(in_features=hidden_dim, out_features=hidden_dim // 4,
-      bias=True)
+            (fc1): Linear(in_features=hidden_dim, out_features=hidden_dim // 4,
+            bias=True)
 
-      (activation1): ReLU
+            (activation1): ReLU
 
-      (fc2): Linear(in_features=hidden_dim // 4,out_features=num_classes,
-      bias=True)
+            (fc2): Linear(in_features=hidden_dim // 4,out_features=num_classes,
+            bias=True)
 
-      (loss_fn): CrossEntropyLoss
+            (loss_fn): CrossEntropyLoss
 
       )
 
