@@ -1,4 +1,4 @@
-# GATConv
+# SAGEConv
 
 ### Model Architecture
 
