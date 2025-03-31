@@ -4,7 +4,7 @@
 To classify input as Quark/Gluon using Graph Neural Networks (GNN).
 
 ### Approach:  
-![Approach Diagram]((https://github.com/tanishmohokar/ML4SCI_25/blob/main/GNN_Classification_Common_Task_02/graph_formation.png)){width="5.833333333333333in" height="2.85625in"}
+(https://github.com/tanishmohokar/ML4SCI_25/blob/main/GNN_Classification_Common_Task_02/graph_formation.png){width="5.833333333333333in" height="2.85625in"}
 
 - **🚀 Introduction**  
   - This project explores the classification of quark and gluon jets using **Graph Neural Networks (GNNs)**.  
