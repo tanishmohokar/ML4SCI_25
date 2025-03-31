@@ -2,7 +2,7 @@
 
 ### Model Architecture
 
-### GNN(
+      GNN(
 
       (conv1): GCNConv(in_features, hidden_dim)
 
@@ -22,7 +22,7 @@
 
       (loss_fn): CrossEntropyLoss
 
-)
+      )
 
 ### Results
 
