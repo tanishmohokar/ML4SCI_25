@@ -4,7 +4,7 @@
 To classify input as Quark/Gluon using Graph Neural Networks (GNN).
 
 ### Approach:  
-![Graph Formation](https://raw.github.com/tanishmohokar/ML4SCI_25/main/GNN_Classification_ContrastiveLoss/graph_formation.png)
+![Graph Formation](https://github.com/tanishmohokar/ML4SCI_25/raw/main/GNN_Classification_ContrastiveLoss/graph_formation.png)
 
 - **🚀 Introduction**  
   - This project contains an implementation of multiple Graph Neural Network (GNN) architectures for classifying quark and gluon jets using contrastive loss.  
@@ -36,7 +36,7 @@ To classify input as Quark/Gluon using Graph Neural Networks (GNN).
   - Achieves high accuracy and robustness with different GNN architectures  
 
 ### Model:  
-![Model Architecture](https://raw.github.com/tanishmohokar/ML4SCI_25/main/GNN_Classification_ContrastiveLoss/Pipeline.png)
+![Model Architecture](https://github.com/tanishmohokar/ML4SCI_25/raw/main/GNN_Classification_ContrastiveLoss/Pipeline.png)
 
 | Model Name | Accuracy | Notebook Link | PDF Link | Loss | Readme | ROC AUC Score |
 |------------|----------|---------------|----------|------|--------|--------------|
