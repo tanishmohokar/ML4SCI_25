@@ -21,8 +21,8 @@
 
 ### Results
 
-Saved Best Model: Epoch 22, Val. Acc.: 0.7045
+Saved Best Model: Epoch 37, Val. Acc.: 0.7065
 
-Final Test Accuracy: 0.6980
+Final Test Accuracy: 0.6870
 
-Epoch 1/50 | Loss: 2.7715 | Train Acc: 0.7590 | Val Acc: 0.6420 | Val ROC-AUC: 0.7018
+Epoch 1/50 | Loss: 2.7709 | Train Acc: 0.7644 | Val Acc: 0.6235 | Val ROC-AUC: 0.6501
