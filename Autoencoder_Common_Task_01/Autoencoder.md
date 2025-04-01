@@ -2,6 +2,8 @@
 
 ### Task:To reconstruct a jet image using Autoencoder.
 
+![Model Diagram](https://github.com/tanishmohokar/ML4SCI_25/raw/main/GNN_Classification_Common_Task_02/graph_formation.png)
+
 - **🚀 Introduction**  
   - This repository contains a PyTorch implementation of a **Variational Autoencoder (VAE)** designed to process jet image data  
   - The model learns a probabilistic latent representation of the input images and reconstructs them using a Gaussian loss function.
