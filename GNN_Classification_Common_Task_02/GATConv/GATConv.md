@@ -26,6 +26,6 @@
 
 ### Results
 
-Saved Best Model: Epoch 23, Val. Acc.: 0.7075
+Saved Best Model: Epoch 32, Val. Acc.: 0.7145
 
-Epoch 0, Train Loss: 38.5419, Train Acc: 0.5967, Test Acc: 0.5945, ROC AUC: 0.7215
+Epoch 0, Train Loss: 39.1672, Train Acc: 0.5693, Test Acc: 0.5660, ROC AUC: 0.6248
