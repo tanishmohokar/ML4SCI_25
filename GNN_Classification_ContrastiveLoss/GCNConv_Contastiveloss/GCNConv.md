@@ -22,6 +22,7 @@
 ### Results
 
 Saved Best Model: Epoch 50, Val. Acc.: 0.7090
+
 Final Test Accuracy: 0.7040
 
 Epoch 1/50 | Loss: 2.7705 | Train Acc: 0.7592 | Val Acc: 0.6370 | Val ROC-AUC: 0.6804
