@@ -1,7 +1,6 @@
 # common Task 01: Variational Autoencoder (VAE) for Jet Image Data
 
-### Task:
-To reconstruct a jet image using Autoencoder.
+### Task:To reconstruct a jet image using Autoencoder.
 
 - **🚀 Introduction**  
   - This repository contains a PyTorch implementation of a **Variational Autoencoder (VAE)** designed to process jet image data  
@@ -24,7 +23,56 @@ To reconstruct a jet image using Autoencoder.
 
 - **⚙️ Model Architectures**
 
+      VAE_autoencoder(
+
+         (encoder): Sequential(
+              (conv1): Conv2d(3, 32, kernel_size=3, stride=2, padding=1)
+              (batchnorm1): BatchNorm2d(32)
+              (activation1): LeakyReLU(0.2)
+        
+              (conv2): Conv2d(32, 64, kernel_size=3, stride=2, padding=1)
+              (batchnorm2): BatchNorm2d(64)
+              (activation2): LeakyReLU(0.2)
+
+              (conv3): Conv2d(64, 128, kernel_size=3, stride=2, padding=1)
+              (batchnorm3): BatchNorm2d(128)
+              (activation3): LeakyReLU(0.2)
+
+              (conv4): Conv2d(128, 256, kernel_size=3, stride=2, padding=1)
+              (batchnorm4): BatchNorm2d(256)
+              (activation4): LeakyReLU(0.2)
+         )
+
+         (mean_layer): Linear(16384, embedding_dim)
+         (logvar_layer): Linear(16384, embedding_dim)
+         (reparam): Reparameterization
+
+         (decoder): Sequential(
+               (fc1): Linear(embedding_dim, 16384)
+
+               (deconv1): ConvTranspose2d(256, 128, kernel_size=3, stride=2, padding=1, output_padding=1)
+               (batchnorm5): BatchNorm2d(128)
+               (activation5): LeakyReLU(0.2)
+
+               (deconv2): ConvTranspose2d(128, 64, kernel_size=3, stride=2, padding=1, output_padding=1)
+               (batchnorm6): BatchNorm2d(64)
+               (activation6): LeakyReLU(0.2)
+
+               (deconv3): ConvTranspose2d(64, 32, kernel_size=3, stride=2, padding=1, output_padding=1)
+               (batchnorm7): BatchNorm2d(32)
+               (activation7): LeakyReLU(0.2)
+
+               (deconv4): ConvTranspose2d(32, 3, kernel_size=3, stride=2, padding=1, output_padding=1)
+               (activation8): Tanh
+         )
+
+         (loss_fn): Variational Loss (KL Divergence + Reconstruction Loss)
+
+      )
+
+
 - **🎯 Key Insights**
+
 The VAE reconstructs input images by learning a probabilistic latent representation. Evaluation metrics include:
   - **Reconstruction Loss**: Measures the difference between input and output.  
   - **Latent Space Analysis**: Investigates the learned distributions in the bottleneck layer.
