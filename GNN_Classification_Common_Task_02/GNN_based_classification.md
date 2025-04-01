@@ -35,7 +35,7 @@ To classify input as Quark/Gluon using Graph Neural Networks (GNN).
   - Achieves high accuracy and robustness with different GNN architectures.  
 
 ### Model:  
-![Model Diagram](https://github.com/tanishmohokar/ML4SCI_25/raw/main/GNN_Classification_Common_Task_02/pipeline.png)
+![Model Diagram](https://github.com/tanishmohokar/ML4SCI_25/raw/main/GNN_Classification_Common_Task_02/Pipeline.png)
 
 | Model Name | Accuracy | Notebook Link | PDF Link | Loss | Readme | ROC AUC Score |
 |------------|----------|---------------|----------|------|--------|--------------|
